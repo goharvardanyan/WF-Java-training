@@ -2,3 +2,14 @@
 .idea
 /shelf/wspace/shelved.patch
 /shelf/wspace.xml
+*/target
+target
+*.iml
+*/.iml
+*.ipr
+*/.ipr
+.project
+.classpath
+.settings
+classes/*
+.vscode/
