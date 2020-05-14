@@ -13,7 +13,6 @@ public class Task2_5 {
         Random random = new Random();
         int randomNumber1 = random.nextInt();
         int randomNumber2 = random.nextInt();
-        int result = 0;
         Scanner scanner = new Scanner(System.in);
         String operator = scanner.next();
         switch (operator) {

@@ -13,6 +13,6 @@ public class Task2_1 {
         int randomNumber1 = random.nextInt(90) + 10;
         int randomNumber2 = random.nextInt(90) + 10;
         int sum = randomNumber1 + randomNumber2;
-        System.out.println((long)sum);
+        System.out.println((long) sum);
     }
 }

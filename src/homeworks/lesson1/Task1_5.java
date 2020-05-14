@@ -13,9 +13,8 @@ public class Task1_5 {
             System.out.println("Wrong input");
         }else {
             int number = scanner.nextInt();
-            int product;
             for (int i = 1; i <= 10; i++) {
-                product = number * i;
+                int product = number * i;
                 System.out.println(number + " x " + i + " = " + product);
             }
         }

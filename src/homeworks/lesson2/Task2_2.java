@@ -13,10 +13,12 @@ public class Task2_2 {
         int randomNumber2 = random.nextInt(90) + 10;
         int product = randomNumber1 * randomNumber2;
         if (product % 2 == 0) {
-            System.out.println((long)product);
+            System.out.println((long) product);
         } else {
-            System.out.println((double)product);
+            System.out.println((double) product);
         }
+
+
 
     }
 }

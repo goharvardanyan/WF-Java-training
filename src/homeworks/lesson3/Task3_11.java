@@ -8,7 +8,7 @@ public class Task3_11 {
 
         System.out.println("Please input a number");
         Scanner scanner = new Scanner(System.in);
-        int number  = scanner.nextInt();
+        int number = scanner.nextInt();
         boolean isPrime = true;
         for (int i = 2; i <= Math.sqrt(number); i++) {
             if (number % i == 0) {

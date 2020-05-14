@@ -9,7 +9,7 @@ public class Task2_3 {
 
         Random random = new Random();
         int randomNumber = random.nextInt(90) + 10;
-        int square = (int)Math.pow(randomNumber, 2);
+        int square = (int) Math.pow(randomNumber, 2);
         String squareStr = String.valueOf(square);
         System.out.println(squareStr);
     }

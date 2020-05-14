@@ -8,16 +8,14 @@ public class Task3_8 {
 
         System.out.println("Please input 10 numbers");
         Scanner scanner = new Scanner(System.in);
-        int i;
         int sum = 0;
         int count = 0;
-        int average;
         while (count != 10) {
-                i = scanner.nextInt();
-                sum = sum + i;
+                int currentNumber = scanner.nextInt();
+                sum = sum + currentNumber;
                 count++;
         }
-        average = sum / 10;
+        double average = (double) sum / 10;
         System.out.println(average);
     }
 }

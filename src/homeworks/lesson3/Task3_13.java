@@ -7,7 +7,6 @@ public class Task3_13 {
 
         String string = "ROBOTS_WILL_KILL_ALL_HUMANZ";
         String newString = "";
-
         for (int i = string.length() - 1; i >= 0; i--) {
             newString = newString + string.charAt(i);
         }

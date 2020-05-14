@@ -11,9 +11,9 @@ public class Task1_7 {
         if (!scanner.hasNextInt()) {
             System.out.println("Wrong input");
         } else {
-            int farenheit = scanner.nextInt();
-            double celsius = (double)(farenheit - 32) * 5 / 9;
-            System.out.println((double) farenheit + " degree Fahrenheit is equal to " + celsius + " in Celsius");
+            int fahrenheit = scanner.nextInt();
+            double celsius = (double) (fahrenheit - 32) * 5 / 9;
+            System.out.println((double) fahrenheit + " degree Fahrenheit is equal to " + celsius + " in Celsius");
         }
     }
 }

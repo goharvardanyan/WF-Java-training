@@ -6,14 +6,13 @@ public class Task3_7 {
 
 
         int sum = 0;
-        int average;
         for (int i = 1; i <= 100; i++) {
             if (i % 2 != 0) {
                 continue;
             }
             sum = sum + i;
         }
-        average = sum / 50;
+        int average = sum / 50;
         System.out.println(average);
     }
 }
