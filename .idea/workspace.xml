@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="260da5d4-59eb-4661-a91c-02d664637915" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +46,7 @@
       <option name="presentableId" value="Default" />
       <updated>1589462987126</updated>
       <workItem from="1589462992352" duration="1000" />
-      <workItem from="1589470702833" duration="429000" />
+      <workItem from="1589470702833" duration="680000" />
     </task>
     <task id="LOCAL-00001" summary="Renaming packages.">
       <created>1589464923168</created>
@@ -56,7 +55,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589464923168</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Corrected gitignore file">
+      <created>1589471170603</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589471170603</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Corrected gitignore file">
+      <created>1589471208199</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589471208199</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -64,13 +77,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Renaming packages." />
-    <option name="LAST_COMMIT_MESSAGE" value="Renaming packages." />
+    <MESSAGE value="Corrected gitignore file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrected gitignore file" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="375" y="12" key="CommitChangelistDialog2" timestamp="1589464920640">
+    <state x="375" y="12" key="CommitChangelistDialog2" timestamp="1589471207513">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="375" y="12" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1589464920640" />
+    <state x="375" y="12" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1589471207513" />
     <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1589465010736">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
