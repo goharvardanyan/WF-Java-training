@@ -1,7 +1,6 @@
 # Default ignored files
 .idea
-/shelf/wspace/shelved.patch
-/shelf/wspace.xml
+.idea/workspace.xml
 */target
 target
 *.iml
@@ -12,4 +11,5 @@ target
 .classpath
 .settings
 classes/*
-.vscode/
+/shelf/wspace/shelved.patch
+/shelf/wspace.xml
