@@ -10,6 +10,7 @@ target
 .project
 .classpath
 .settings
-classes/*
+*/classes/*
 /shelf/wspace/shelved.patch
 /shelf/wspace.xml
+/uiDesigner.xml
