@@ -22,7 +22,7 @@ public class HashMapTasks {
 
         // 15. Write a Java program to copy all of the mappings from the specified map to another map.
 
-        HashMap<String,String>  hashMap1 = new HashMap<>(hashMap);
+        HashMap<String, String> hashMap1 = new HashMap<>(hashMap);
         System.out.println("Content of hashmap2 : " + hashMap1);
 
         // 16. Write a Java program to remove all of the mappings from a map.
@@ -37,16 +37,17 @@ public class HashMapTasks {
         // 18. Write a Java program to get a shallow copy of a HashMap instance.
 
         @SuppressWarnings("unchecked")
-        HashMap<String, String>  hashMap2 = (HashMap<String, String>) hashMap.clone();
+        HashMap<String, String> hashMap2 = (HashMap<String, String>) hashMap.clone();
         System.out.println("Clone of hashmap: " + hashMap2);
 
         // 19. Write a Java program to test if a map contains a mapping for the specified key.
+
         String key = "John";
         boolean containsKey = hashMap.containsKey(key);
-        if (containsKey){
-            System.out.println("Hashmap contains a mapping with " + key  + " key : " + hashMap.get(key));
+        if (containsKey) {
+            System.out.println("Hashmap contains a mapping with " + key + " key : " + hashMap.get(key));
         } else {
-            System.out.println("Hashmap doesn't contain mapping with " + key  + " key : ");
+            System.out.println("Hashmap doesn't contain mapping with " + key + " key : ");
         }
 
         // 20. Write a Java program to test if a map contains a mapping for the specified value.
@@ -56,7 +57,7 @@ public class HashMapTasks {
         // 21. Write a Java program to create a set of the mappings contained in a map.
         // ( hint: myHashmap.entrySet() )
 
-        Set<Map.Entry<String,String>> setOfEntries = getEntrySetContainer(hashMap);
+        Set<Map.Entry<String, String>> setOfEntries = getEntrySetContainer(hashMap);
         System.out.println("Content of hashset : " + setOfEntries);
 
         // 22. Write a Java program to get the value of a specified key in a map.
@@ -75,10 +76,10 @@ public class HashMapTasks {
     }
 
     static <K, V> Set<Map.Entry<K, V>> getEntrySetContainer(HashMap<K, V> map) {
-        return  map.entrySet();
+        return map.entrySet();
     }
 
-    static <K, V> Set<K> getKeySetContainer(HashMap<K, V> map){
+    static <K, V> Set<K> getKeySetContainer(HashMap<K, V> map) {
         return map.keySet();
     }
 }
