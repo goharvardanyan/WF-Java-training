@@ -3,7 +3,7 @@ package homeworks.lesson8;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class Task1 {
+public class Tasks {
 
     public static void main(String[] args) {
 
@@ -86,8 +86,8 @@ public class Task1 {
 
         // 9 - Return people names separated by comma
 
-        String names = getNames(personList);
-        System.out.println("Names: " + names);
+        getNames(personList);
+
     }
 
     public static List<String> convertElementsToUpperCase(List<String> list) {
@@ -125,9 +125,10 @@ public class Task1 {
                 .collect(Collectors.groupingBy(Person::getNationality));
     }
 
-    public static String getNames(List<Person> personList) {
-        return personList.stream()
+    public static void getNames(List<Person> personList) {
+        String names = personList.stream()
                 .map(Person::getName)
                 .collect(Collectors.joining(", "));
+        System.out.println("Names: " + names);
     }
 }
